@@ -3,7 +3,7 @@ import axios from 'axios';
 // Configure a new axios instance.
 const api = axios.create({
   // The base URL for all API requests.
-  baseURL: 'http://localhost:5001', 
+  baseURL: 'https://personalized-training-platform.onrender.com', 
   headers: {
     'Content-Type': 'application/json',
   },
